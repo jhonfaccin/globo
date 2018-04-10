@@ -1,0 +1,57 @@
+*{
+    margin-left: 0px;
+}
+
+.cabecalho{
+    border-bottom: darkgray solid 1px;
+    padding-bottom: 7px;
+    padding-top: 15px;
+    padding-left: 60px;
+    width: 100%;
+    height: 80px;
+}
+
+#globo-com{
+    padding-right: 45px;
+    float: left;
+}
+
+.menu{
+    padding-top: 20px;
+    list-style-type: none;
+
+}
+
+.menu > li{
+    float: left;
+    padding-right: 15px;
+}
+
+.lu > li{
+    display: none;
+}
+
+.secundario > ul{
+    padding-left: 25%;
+    list-style-type: none;
+    float: left;
+}
+
+.secundario > ul a{
+    font-size: 11px;
+    color: #777;
+    text-decoration: none;
+}
+
+.secundario > ul li{
+    padding-right: 12px;
+    float: left;
+    list-style-type: none;
+}
+
+input{
+    background-image: url('imgens//search.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
