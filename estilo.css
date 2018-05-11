@@ -1,57 +1,67 @@
-*{
+body{
     margin-left: 0px;
+    margin-right: 0px;
 }
-
 .cabecalho{
-    border-bottom: darkgray solid 1px;
-    padding-bottom: 7px;
-    padding-top: 15px;
-    padding-left: 60px;
-    width: 100%;
     height: 80px;
+    border-bottom: darkgray solid 1px;
+    padding-top: 15px;
+    padding-left: 50px;
 }
 
-#globo-com{
-    padding-right: 45px;
+#globo{
     float: left;
+    padding-right: 40px;
 }
 
 .menu{
-    padding-top: 20px;
-    list-style-type: none;
-
-}
-
-.menu > li{
-    float: left;
-    padding-right: 15px;
-}
-
-.lu > li{
-    display: none;
-}
-
-.secundario > ul{
-    padding-left: 25%;
-    list-style-type: none;
+    padding-top: 20px; 
+    list-style: none;
+    font-size: 20px;
+    font-family: opensans-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
     float: left;
 }
 
-.secundario > ul a{
+.menu > li > lu{
+    padding-right: 20px; 
+}
+
+.sub-menu{
+    list-style: none;
+    float: left;
     font-size: 11px;
-    color: #777;
+    font-family: ProximaNova-Regular,Arial,sans-serif;
+    padding-top: 25px
+}
+
+li lu > a{
     text-decoration: none;
+    color: gray;
 }
 
-.secundario > ul li{
-    padding-right: 12px;
+.sub-menu > li{
     float: left;
-    list-style-type: none;
+    padding-left: 250px;
 }
 
-input{
+.sub-menu > li > lu{
+    padding-right: 12px;
+}
+
+#pesquisar{
+    padding-top: 15px;
+
+}
+
+#pesquisar > input{
     background-image: url('imgens//search.svg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    padding-left: 5px;
+    width: 200px;
+    height: 25px;
 }
 
+#login{
+    padding-left: 30px;
+}
