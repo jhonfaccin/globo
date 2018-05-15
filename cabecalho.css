@@ -7,6 +7,7 @@ body{
     border-bottom: darkgray solid 1px;
     padding-top: 15px;
     padding-left: 50px;
+    /*background-color: red;*/
 }
 
 #globo{
@@ -35,7 +36,7 @@ body{
 }
 
 li lu > a{
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: gray;
 }
 
