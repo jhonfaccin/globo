@@ -13,11 +13,12 @@
 	width: 50%;
 	font-size: 20px;
 	color: red;
+	margin-right: 20px;
 }
 
 #noticia-principal{
 	font-size: 50px;
-	padding-right: 15px;
+	padding-right: 10px;
 	border-bottom: 1px solid #cccccc;
 }
 
@@ -27,23 +28,27 @@
 	padding-bottom: 15px;
 }
 
-.primeira-linha > div > p{
+.linha > div{
 	float: left;
 	padding-right: 20px;
-	padding-bottom: 20px;
-	color: red;
 	width: 30%;
 	height: auto;
 	font-size: 20px;
 	border-bottom: 1px solid #cccccc;
 }
 
+.linha > div > a{
+	color: red;
+}
+
+.linha > div > a > img{
+	padding-top: 20px;
+}
 
 a{
 	text-decoration: none;
 }
 #segunda-coluna-dir{
-	/*background-color: yellow;*/
 	width: 20%;
 	height: auto;
 	float: left;
@@ -60,7 +65,6 @@ a{
 }
 
 #terceira-coluna-dir{
-	/*background-color: yellow;*/
 	float: left;
 	width: 20%;
 	height: auto;
@@ -75,3 +79,11 @@ a{
 #terceira-coluna-dir > lu >li > a{
 	color: orange;
 }
+
+.rodape{
+	float: left;
+	font-size: 50px;
+	width: 50%;
+}
+
+

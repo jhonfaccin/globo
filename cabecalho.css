@@ -4,7 +4,7 @@ body{
 }
 .cabecalho{
     height: 80px;
-    border-bottom: darkgray solid 1px;
+    border-bottom: #cccccc solid 1px ;
     padding-top: 15px;
     padding-left: 50px;
 }
